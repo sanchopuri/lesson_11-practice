@@ -1,0 +1,107 @@
+body{
+	background-color: darkblue;
+	font-family: "Montserrat";
+}
+
+.wrapper{
+	margin: 0 auto; 
+	max-width: 1200px; 
+	background-color: white;
+	position: relative;
+	min-height: 100%;
+	margin-top: 20px;
+	border-radius: 30px;  
+}
+
+
+
+.line{
+	background-color: rgb(211, 251, 151);
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 5;
+}
+
+.line-fixed{
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-align: center;
+	
+}
+
+
+
+
+
+.list{
+	line-height: 1.5;
+	font-size: 25px;
+	width: 1200px;
+	padding: 60px;
+}
+
+.first__title{
+	background-color: palevioletred;
+	position: relative;
+	top: 45px;
+	z-index: 3;
+}
+
+.second__title{
+	background-color: peru;
+
+}
+
+.third__title{
+	background-color: paleturquoise;
+	position: relative;
+	top: -20px;
+	right: 10px;
+}
+
+main{
+	line-height: 2;
+	text-align: center;
+}
+
+.facts{
+	font-family: "Lobster";
+	font-size: 25px;
+	line-height: 1.5;
+	color: rgb(255, 134, 255);
+	position: relative;
+}
+
+.facts li::before{
+	content: "";
+	position: absolute;
+	background: url('../img/icons/Vector.svg') left no-repeat; 
+	width: 20px;
+	height: 20px;
+	margin: 9px 0px 0px -25px;
+}
+
+.our-offer__list{
+	padding: 120px;
+	font-size: 25px;
+	width: 1200px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.quality{
+	background-color: peru;
+}
+
+.conditions{
+	background-color: paleturquoise;
+	position: sticky;
+	top: 0px;
+}
+
+.discount{
+	background-color: palevioletred;
+}
